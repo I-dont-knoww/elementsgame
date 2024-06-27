@@ -8,6 +8,8 @@ const elementName = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium', 'Boron', 'Car
 let elementsUsed, awaitingInput, lastUser, turn, reported;
 const users = {};
 
+console.log('starting');
+
 class User {
     constructor(connection) {
         this.turn = -1;
